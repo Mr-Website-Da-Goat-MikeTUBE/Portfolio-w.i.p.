@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+    <head>
+        <title>T.U.B.E.</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
+        <link rel="stylesheet" href="css/styles.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lilita+One&display=swap">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <style>
+            @font-face {
+            font-family: 'TubeStar';
+            src: url('css/Youtube Star.woff') format('woff');
+            font-display: swap;
+            }
+            @font-face {
+            font-family: 'Pescante';
+            src: url('css/Pescante-Normal.woff') format('woff');
+            font-display: swap;
+            }
+            @font-face {
+            font-family: 'CheapPB';
+            src: url('css/Cheap-Potatoes-Black.woff') format('woff');
+            font-display: swap;
+            }
+            @font-face {
+            font-family: 'CheapPBT';
+            src: url('css/Cheap-Potatoes-Black-Thin.woff') format('woff');
+            font-display: swap;
+            }
+            @font-face {
+            font-family: 'Canarina';
+            src: url('css/Canarina-Mediana.woff') format('woff');
+            font-display: swap;
+            }
+        </style>
+    </head>
+
+    <body>
+    <div id="deskdivbg">
+
+        <img  class="img5" src="./assets/X_GOBACK.png" alt="big x to go back to other page"  onclick="location.href='homepage.html'"> 
+
+        <div class="jobdiv">
+
+            <div id="fcf-form">
+            <h3 class="fcf-h3">Contact us</h3>
+
+            <div class="ledivider"></div>
+
+            <form id="fcf-form-id" class="fcf-form-class" method="post" action="contact-form-process.php">
+                
+                <input type="hidden" name="access_key" value="85a14264-8e36-4fa5-a158-2a5dc04224cc">
+                
+                <div class="fcf-form-group">
+                    <label for="Name" class="fcf-label">Your First name</label>
+                    <div class="fcf-input-group">
+                        <input type="text" id="Name" name="Name" class="fcf-form-control" required>
+                    </div>
+                </div>
+
+                <div class="fcf-form-group">
+                    <label for="Name" class="fcf-label">Your Last name</label>
+                    <div class="fcf-input-group">
+                        <input type="text" id="Name" name="Name" class="fcf-form-control" required>
+                    </div>
+                </div>
+
+                <div class="fcf-form-group">
+                    <label for="Name" class="fcf-label">Your Preferred Name/Title</label>
+                    <div class="fcf-input-group">
+                        <input type="text" id="Name" name="Name" class="fcf-form-control" required>
+                    </div>
+                </div>
+
+                <div class="fcf-form-group">
+                    <label for="Name" class="fcf-label">Your Phone Number (optional)</label>
+                    <div class="fcf-input-group">
+                        <input type="text" id="Name" name="Name" class="fcf-form-control" required>
+                    </div>
+                </div>
+                
+                <div class="fcf-form-group">
+                    <label for="Email" class="fcf-label">Your email address</label>
+                    <div class="fcf-input-group">
+                        <input type="email" id="Email" name="Email" class="fcf-form-control" required>
+                    </div>
+                </div>
+
+                <div class="ledivider2"></div>
+
+                <div class="fcf-form-group">
+                    <label for="Email" class="fcf-label">The Subject of your message</label>
+                    <div class="fcf-input-group">
+                        <input type="email" id="Email" name="Email" class="fcf-form-control" required>
+                    </div>
+                </div>
+
+                <div class="fcf-form-group">
+                    <label for="Message" class="fcf-label">Your message</label>
+                    <div class="fcf-input-group">
+                        <textarea id="Message" name="Message" class="fcf-form-control" rows="6" maxlength="3000" required></textarea>
+                    </div>
+                </div>
+
+                <div class="fcf-form-group">
+                    <button type="submit" id="fcf-button" class="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block">Send Message</button>
+                </div>
+
+                <div class="fcf-credit" id="fcf-credit">
+                Simple HTML email form provided by <a href="https://www.majesticform.com" target="_blank">MajesticForm</a>
+                </div>
+
+            </form>
+            </div>
+
+        </div>
+    </div>
+
+    </body>
+</html>

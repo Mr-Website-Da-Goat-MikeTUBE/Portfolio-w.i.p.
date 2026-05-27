@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>T.U.B.E.</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
+        <link rel="stylesheet" href="css/styles.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lilita+One&display=swap">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="gallery.js"></script>
+        <script src="slide-3.js"></script>
+        <style>
+            @font-face {
+            font-family: 'TubeStar';
+            src: url('css/Youtube Star.woff') format('woff');
+            font-display: swap;
+            }
+            @font-face {
+            font-family: 'Pescante';
+            src: url('css/Pescante-Normal.woff') format('woff');
+            font-display: swap;
+            }
+            @font-face {
+            font-family: 'CheapPB';
+            src: url('css/Cheap-Potatoes-Black.woff') format('woff');
+            font-display: swap;
+            }
+            @font-face {
+            font-family: 'CheapPBT';
+            src: url('css/Cheap-Potatoes-Black-Thin.woff') format('woff');
+            font-display: swap;
+            }
+            @font-face {
+            font-family: 'Canarina';
+            src: url('css/Canarina-Mediana.woff') format('woff');
+            font-display: swap;
+            }
+        </style>
+    </head>
+    <body>
+
+        <div id="shopbg">    
+            <div class="titletube">
+                <h1>T.U.B.E.</h1>   
+                <img  class="img3" src="./assets/clipart_sign.png" alt="old sign">  
+            </div>
+
+
+            <div id= "" class= "testid3 braindiv" style="display:none;">    
+                <input class="img7" type="button" onclick="myFunction6()">            
+                <div class="aboutmii">
+                    <br>
+                    <br>
+                    <h2>About me</h2>   
+                    <br>
+                    <br>
+                    <p>Hello Hello Hello, the name's Michael A. Peterkin Jr, an aspiring illustrator with a multitude of other skills.
+                         I hope you enjoy your stay at my wonderful stor-I mean portfolio...yeah. Anyways have fun and try not to
+                         break anything.<p>
+                </div>
+            </div> 
+
+            <section id="contiflex">
+            <section id="contiflex2">
+                <div class="row w3-center">
+                    
+                    <div class="column galimg">
+                        <img src="./assets/Collusion/Collusion-thumbnail.jpg" style="width:60%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+                    </div>
+                    <div class="column galimg">
+                        <img src="./assets/Grid-Lock/GridLock-thumbnail.jpg" style="width:60%" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
+                    </div>
+                    <div class="column galimg">
+                        <img src="./assets/Query_Quest/Query_Quest-thumbnail.jpg" style="width:60%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
+                    </div>
+                    <div class="column galimg">
+                        <img src="./assets/SB_Poster/SB_Poster-thumbnail.jpg" style="width:60%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+                    </div>
+                </div>
+
+                <div id="myModal" class="modal">
+                <span class="close cursor" onclick="closeModal()">&times;</span>
+                <div class="modal-content">
+
+                    <div class="mySlides">
+                    <div class="numbertext">1 / 4</div>
+                    <img src="./assets/Collusion/Collusion-300dpi.jpg" style="width:40%">
+                    </div>
+
+                    <div class="mySlides">
+                    <div class="numbertext">2 / 4</div>
+                    <img src="./assets/Grid-Lock/GridLock-300dpi.jpg" style="width:40%">
+                    </div>
+
+                    <div class="mySlides">
+                    <div class="numbertext">3 / 4</div>
+                    <img src="./assets/Query_Quest/Query_Quest-300dpi.jpg" style="width:40%">
+                    </div>
+                    
+                    <div class="mySlides">
+                    <div class="numbertext">4 / 4</div>
+                    <img src="./assets/SB_Poster/SB_Poster-300dpi.jpg" style="width:40%">
+                    </div>
+                    
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+                    <div class="caption-container">
+                    <p id="caption"></p>
+                    </div>
+
+
+                    <div class="column">
+                    <img class="demo cursor" src="./assets/Collusion/Collusion-150dpi.jpg" style="width:40%" onclick="currentSlide(1)" alt="Collusion">
+                    </div>
+                    <div class="column">
+                    <img class="demo cursor" src="./assets/Grid-Lock/GridLock-150dpi.jpg" style="width:40%" onclick="currentSlide(2)" alt="GridLock">
+                    </div>
+                    <div class="column">
+                    <img class="demo cursor" src="./assets/Query_Quest/Query_Quest-150dpi.jpg" style="width:40%" onclick="currentSlide(3)" alt="Query Quest">
+                    </div>
+                    <div class="column">
+                    <img class="demo cursor" src="./assets/SB_Poster/SB_Poster-150dpi.jpg" style="width:40%" onclick="currentSlide(4)" alt="Silly Billy Poster">
+                    </div>
+                </div>
+                </div>
+            </section>
+            <aside>
+                <img  class="img4" src="./assets/Letter_contact.png" alt="stacko paper" onclick="location.href='contact.html'">
+                <img  class="img9" src="./assets/stacko.png" alt="stacko paper" onclick="location.href='resume.html'">
+                <div class="pointertube">
+                    <img  class="img8" src="./assets/ShopCursor.gif" alt="stacko paper">
+                    <h3>Contact Form</h3>
+                </div>
+                <div class="pointertube2">
+                    <img  class="img8" src="./assets/ShopCursor.gif" alt="stacko paper">
+                    <h3>Resume</h3>
+                </div>                
+                <div class="speech-bubble">
+                    <p>Click on me to learn about me</p>
+                </div>
+                <img  class="img1" src="./assets/temp_desk_.png" alt="desk">
+                <img  class="img2" src="./assets/MikeTUBE-Stance.png" alt="MikeTUBE stanced up" onclick="myFunction5()">
+            </aside>
+        </div>
+
+    </body>
+</html>
